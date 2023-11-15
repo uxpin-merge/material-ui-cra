@@ -14,7 +14,7 @@ npm install
 npm start
 ```
 
-or edit directly on CodeSandbox or StackBlitz:
+... or edit directly on CodeSandbox or StackBlitz:
 
 
 [![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/uxpin-merge/material-ui-cra)
