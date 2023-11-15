@@ -5,12 +5,21 @@ import { ThemeProvider } from '@mui/material/styles';
 import App from './App';
 import theme from './theme';
 
+//MUI Icon font import
+let icons = document.createElement("link");
+icons.setAttribute(
+  "href",
+  "https://fonts.googleapis.com/icon?family=Material+Icons"
+);
+icons.setAttribute("rel", "stylesheet");
+document.head.appendChild(icons);
+
+
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement);
 
 root.render(
   <ThemeProvider theme={theme}>
-    {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
     <CssBaseline />
     <App />
   </ThemeProvider>,
