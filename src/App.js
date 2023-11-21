@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Image from 'mui-image';
 import {
   Accordion,
 AccordionActions,
