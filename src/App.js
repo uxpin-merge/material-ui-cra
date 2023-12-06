@@ -138,6 +138,8 @@ Tooltip,
 Typography,
 Zoom
 } from '@mui/material';
+import { LineChart } from '@mui/x-charts/LineChart';
+import { BarChart } from '@mui/x-charts/BarChart';
 
 
 

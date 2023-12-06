@@ -12,6 +12,7 @@
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/material": "latest",
+    "@mui/x-charts": "^6.18.3",
     "mui-image": "^1.0.7",
     "react": "latest",
     "react-dom": "latest",

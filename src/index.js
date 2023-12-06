@@ -9,7 +9,7 @@ import theme from './theme';
 let icons = document.createElement("link");
 icons.setAttribute(
   "href",
-  "https://fonts.googleapis.com/icon?family=Material+Icons"
+  "https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
 );
 icons.setAttribute("rel", "stylesheet");
 document.head.appendChild(icons);
@@ -22,5 +22,5 @@ root.render(
   <ThemeProvider theme={theme}>
     <CssBaseline />
     <App />
-  </ThemeProvider>,
+  </ThemeProvider>
 );
