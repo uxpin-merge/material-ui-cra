@@ -146,7 +146,7 @@ import { BarChart } from '@mui/x-charts/BarChart';
 export default function App() {
   return (
     <div>
-        Copy/Paste UXPin Merge JSX here and update theme in the theme.js file.
+      Hello world!
     </div>
   );
 }
